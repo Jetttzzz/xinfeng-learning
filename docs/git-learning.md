@@ -21,3 +21,35 @@
 - 最终保留：合并了两边的修改
 
 ---
+
+## 模块二：git log/diff 查看历史和差异
+
+
+### git log 常用命令
+
+### git log 常用格式
+
+| 命令 | 说明 |
+|------|------|
+| `git log` | 完整历史 |
+| `git log --oneline` | 简洁单行 |
+| `git log -n` | 最近n条 |
+| `git log --graph` | 图形化分支 |
+| `git log --author="name"` | 按作者筛选 |
+| `git log --since="2024-01-01"` | 按时间筛选 |
+
+### git diff 常用命令
+
+| 命令 | 说明 |
+|------|------|
+| `git diff` | 工作区 vs 暂存区 |
+| `git diff --staged` | 暂存区 vs 最新提交 |
+| `git diff HEAD` | 工作区 vs 最新提交 |
+| `git diff commit1 commit2` | 两个提交比较 |
+| `git diff --stat` | 统计变更 |
+
+---
+
+## 模块三：git revert/reset 回滚操作
+
+这是一个错误的提交，需要回滚
