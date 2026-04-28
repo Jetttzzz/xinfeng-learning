@@ -20,3 +20,25 @@
 ---
 
 *持续更新中...*
+## Git学习笔记
+
+### 基本概念
+
+- **Repository**: 仓库，存放代码和文档
+- **Branch**: 分支，独立开发线
+- **Commit**: 提交，保存更改
+- **Push**: 推送到远程
+- **Pull**: 拉取远程更改
+
+### 常用命令
+
+```bash
+git status          # 查看状态
+git add <file>      # 添加文件
+git commit -m "msg" # 提交
+git push            # 推送
+git pull            # 拉取
+git branch          # 查看分支
+git checkout -b     # 创建并切换分支
+```
+
